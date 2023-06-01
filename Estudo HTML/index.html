@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portfólio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>Sobre mim</h2>
+        <p>
+          <br />
+          Olá! <br />
+          Meu nome é Mateus Di Bastiani, sou um grande entusiasta de tecnologia
+          e estou em busca do meu primeiro emprego na área.
+        </p>
+
+        <p>Segue alguns projetos que fiz utilizando Javascript.</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projetos</h2>
+        <ul>
+          <li>
+            <h3>Projeto 1 - Calculadora</h3>
+            <p>Uma calculadora simples para realizar operações matemáticas.</p>
+            <div class="calculator">
+              <input type="text" id="result" />
+              <div class="buttons">
+                <button onclick="appendNumber(1)">1</button>
+                <button onclick="appendNumber(2)">2</button>
+                <button onclick="appendNumber(3)">3</button>
+                <button onclick="appendNumber(4)">4</button>
+                <button onclick="appendNumber(5)">5</button>
+                <button onclick="appendNumber(6)">6</button>
+                <button onclick="appendNumber(7)">7</button>
+                <button onclick="appendNumber(8)">8</button>
+                <button onclick="appendNumber(9)">9</button>
+                <button onclick="appendNumber(0)">0</button>
+                <button onclick="appendOperator('+')">+</button>
+                <button onclick="appendOperator('-')">-</button>
+                <button onclick="appendOperator('*')">*</button>
+                <button onclick="appendOperator('/')">/</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearResult()">C</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+     
+      
+        <h3>Projeto 2 - Relógio</h3>
+        <p>Um relógio simples para exibir a hora atual.</p>
+        <div class="clock">
+          <h2 id="clockDisplay"></h2>
+        </div>
+      
+    
+  </section>
+
+      <section id="contact">
+        <h2>Contato</h2>
+        <p>
+          Se você quiser entrar em contato comigo, sinta-se à vontade para
+          enviar um email para
+          <a href="mailto:mateusdibastiani3@gmail.com"
+            >mateusdibastiani3@gmail.com</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Mateus Di Bastiani. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
